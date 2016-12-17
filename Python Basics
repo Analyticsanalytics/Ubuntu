@@ -3,6 +3,7 @@ sudo pip search numpy
 
 # Download a python package in cmd
 sudo pip install numpy
+sudo apt-get install numpy
 
 #Alternatively we can install it in rodeo interface
 import pip
