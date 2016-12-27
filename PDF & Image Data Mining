@@ -7,7 +7,7 @@
 #####  Read text from scanned pdf files. These pdf files are unsearchable. We'll convert it into searchable and then convert 
 # ihese codes will be run in terminal window of linux machine
 
-cd ocrdir             #We want to use the directory ocrdir. Files fax are there only
+cd ocrdir             #We want to use the folder ocrdir. Files fax are there only
 pypdfocr fax.pdf      #This line will convert the uneditable fax.pdf file into searchable and automically name it as 
                       # fax_ocr.pdf. The original file fax.pdf will stay there intact
 
