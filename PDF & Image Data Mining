@@ -11,3 +11,9 @@ pypdfocr fax.pdf      #This line will convert the uneditable fax.pdf file into s
 pdf2txt.py -o output.html fax_ocr.pdf      # This line will convert fax_ocr.pdf file to html file
 pdf2txt.py -o test.txt -t text fax_ocr.pdf    # This line will convert fax_ocr.pdf file to html file
 
+Links
+https://timothymonteath.com/bulk-pdf-ocr-on-os-x/
+https://github.com/virantha/pypdfocr
+https://paulsolin.com/2014/06/27/scraping-pdfs-with-python/
+
+
