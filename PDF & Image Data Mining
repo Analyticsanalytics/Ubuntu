@@ -1,8 +1,7 @@
 
 #############################        Converting uneditable pdf files         #################################################  
 #####  Read text from scanned pdf files. These pdf files are unsearchable. We'll convert it into searchable and then convert 
-# into html and text format for data analysis
- # We need to install pypdfocr & pdfminer from terminal
+# into html and text format for data analysis. We need to install pypdfocr & pdfminer from terminal
 
 cd ocrdir     #We want to use the directory ocrdir. Files fax are there only
 pypdfocr fax.pdf      #This line will convert the uneditable fax.pdf file into searchable and automically name it as fax_ocr.pdf
