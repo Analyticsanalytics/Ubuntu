@@ -1,0 +1,4 @@
+
+# Kill a program in python
+Suppose a program is frozen/hanged in ubuntu, Type "top" in the terminal, then look at the PID of the program that is hanged,
+then write "kill PID No." and it will kill that program.
