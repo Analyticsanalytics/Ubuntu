@@ -1,3 +1,6 @@
+#To run a file my-program.py that contains python code from the command prompt, use::
+$ python my-program.py
+
 # Search a python package in command prompt
 sudo pip search numpy
 
