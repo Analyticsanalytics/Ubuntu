@@ -1,4 +1,10 @@
 
-# Kill a program in python
+1)  # Kill a program in python
 Suppose a program is frozen/hanged in ubuntu, Type "top" in the terminal, then look at the PID of the program that is hanged,
 then write "kill PID No." and it will kill that program.
+
+2)  # Uninstall a program, install a program and download a software from a site in command line. 
+    rm -rf ~/anaconda2
+    bash ~/Downloads/Anaconda3.sh  # Here Anaconda is located in Downloads folder
+    wget https://repo.continuum.io/archive/Anaconda2-4.2.0-Linux-x86_64.sh   #It will directly download from the site
+    
