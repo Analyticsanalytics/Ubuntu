@@ -11,3 +11,13 @@ then write "kill PID No." and it will kill that program.
 3)  # adjust the screen brightness of the laptop from command line
      sudo apt-get install -y xbacklight
      xbacklight -set 50      #Set display backlight to 50%
+
+4)  # shut down or reboot Ubuntu using terminal commands
+     sudo poweroff   #FOr shutting down
+     sudo reboot     # For restarting
+
+
+
+
+
+
