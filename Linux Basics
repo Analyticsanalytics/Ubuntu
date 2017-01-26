@@ -16,6 +16,8 @@ then write "kill PID No." and it will kill that program.
      sudo poweroff   #FOr shutting down
      sudo reboot     # For restarting
 
+5) # Launch facebook in chrome from terminal
+     google-chrome facebook.com
 
 
 
