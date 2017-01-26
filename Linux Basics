@@ -8,3 +8,6 @@ then write "kill PID No." and it will kill that program.
     bash ~/Downloads/Anaconda3.sh  # Here Anaconda is located in Downloads folder
     wget https://repo.continuum.io/archive/Anaconda2-4.2.0-Linux-x86_64.sh   #It will directly download from the site
     
+3)  # adjust the screen brightness of the laptop from command line
+     sudo apt-get install -y xbacklight
+     xbacklight -set 50      #Set display backlight to 50%
