@@ -1,7 +1,7 @@
 
 1)  # Kill a program in python
-Suppose a program is frozen/hanged in ubuntu, Type "top" in the terminal, then look at the PID of the program that is hanged,
-then write "kill PID No." and it will kill that program.
+    Suppose a program is frozen/hanged in ubuntu, Type "top" in the terminal, then look at the PID of the program that is hanged,
+    then write "kill PID No." and it will kill that program.
 
 2)  # Uninstall a program, install a program and download a software from a site in command line. 
     rm -rf ~/anaconda2
@@ -20,10 +20,10 @@ then write "kill PID No." and it will kill that program.
      google-chrome & exit
 
 6) # To open my computer from terminal
-      nautilus
+     nautilus
 
 7) # To Change the drive ##
-cd /the drive name /goes on....   #If the folder has more spaces then use the TAB after writting few words of the folder name
+   cd /the drive name /goes on....   #If the folder has more spaces then use the TAB after writting few words of the folder name
 
 
 
