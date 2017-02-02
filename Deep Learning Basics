@@ -7,3 +7,10 @@ sudo vm ~/.keras/keras.json     # It will open a file. Now put the code below
     "floatx": "float32",
     "backend": "tensorflow"        # To change back to theano, change tensorflow to theano
 }
+
+
+
+
+
+
+
