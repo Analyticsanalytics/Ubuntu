@@ -16,9 +16,14 @@ then write "kill PID No." and it will kill that program.
      sudo poweroff   #FOr shutting down
      sudo reboot     # For restarting
 
-5) # Launch facebook in chrome from terminal
-     google-chrome facebook.com
+5) # Launch facebook in chrome from terminal without depedency on the terminal itself
+     google-chrome & exit
 
+6) # To open my computer from terminal
+      nautilus
+
+7) # To Change the drive ##
+cd /the drive name /goes on....   #If the folder has more spaces then use the TAB after writting few words of the folder name
 
 
 
