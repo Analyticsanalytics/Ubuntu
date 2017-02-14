@@ -25,6 +25,12 @@
 7) # To Change the drive ##
    cd /the drive name /goes on....   #If the folder has more spaces then use the TAB after writting few words of the folder name
 
+8) # Open your bashrc file to add a path to the directory. Here gedit is a text editor. We can use any text editor we want
+     gedit .bashrc
+
+
+
+
 
 
 
