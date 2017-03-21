@@ -28,12 +28,29 @@ http://pybrary.net/pyPdf/
 #############################################################################################################################
 
 #We'll read this in ipython. Image pkg reads the png, jpg, tiff etc imags. pytesseract performs the ocr the images
+# Need to install tesseract ocr 1st using
+sudo apt install tesseract-ocr
+
 
 import Image  
 import pytesseract
 print pytesseract.image_to_string(Image.open('/home/lebowski/Desktop/image processing/Rodeo WD/image1.jpg'), lang="eng") 
 
 print pytesseract.image_to_string(Image.open('/home/lebowski/Desktop/image processing/Rodeo WD/image2.png'), lang="eng") 
+
+# If the above code doesn't work use this
+try:
+    import Image
+except ImportError:
+    from PIL import Image
+import pytesseract
+
+img = Image.open('/home/lebowski/Desktop/image processing/Rodeo WD/image1.jpg')
+img.load()
+img.split()
+i = pytesseract.image_to_string(img)
+print i
+
 
 
 
